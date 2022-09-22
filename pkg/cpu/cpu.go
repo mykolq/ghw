@@ -51,7 +51,8 @@ type Processor struct {
 	// NumCores is the number of physical cores in the processor package
 	NumCores uint32 `json:"total_cores"`
 	// NumThreads is the number of hardware threads in the processor package
-	NumThreads uint32 `json:"total_threads"`
+	NumThreads uint32  `json:"total_threads"`
+	Frequency  float64 `json:"frequency"`
 	// Vendor is a string containing the vendor name
 	Vendor string `json:"vendor"`
 	// Model` is a string containing the vendor's model name

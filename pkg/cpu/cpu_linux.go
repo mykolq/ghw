@@ -94,6 +94,13 @@ func processorsGet(ctx *context.Context) []*Processor {
 		first := procAttrs[lps[0]]
 		p.Model = first["model name"]
 		p.Vendor = first["vendor_id"]
+
+		freq, err := strconv.ParseFloat(first["cpu MHz"], 64)
+		if err != nil {
+			continue
+		}
+		p.Frequency = freq
+
 		numCores, err := strconv.Atoi(first["cpu cores"])
 		if err != nil {
 			continue
