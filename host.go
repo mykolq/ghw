@@ -9,20 +9,20 @@ package ghw
 import (
 	"fmt"
 
-	"github.com/jaypipes/ghw/pkg/context"
+	"github.com/mykolq/ghw/pkg/context"
 
-	"github.com/jaypipes/ghw/pkg/baseboard"
-	"github.com/jaypipes/ghw/pkg/bios"
-	"github.com/jaypipes/ghw/pkg/block"
-	"github.com/jaypipes/ghw/pkg/chassis"
-	"github.com/jaypipes/ghw/pkg/cpu"
-	"github.com/jaypipes/ghw/pkg/gpu"
-	"github.com/jaypipes/ghw/pkg/marshal"
-	"github.com/jaypipes/ghw/pkg/memory"
-	"github.com/jaypipes/ghw/pkg/net"
-	"github.com/jaypipes/ghw/pkg/pci"
-	"github.com/jaypipes/ghw/pkg/product"
-	"github.com/jaypipes/ghw/pkg/topology"
+	"github.com/mykolq/ghw/pkg/baseboard"
+	"github.com/mykolq/ghw/pkg/bios"
+	"github.com/mykolq/ghw/pkg/block"
+	"github.com/mykolq/ghw/pkg/chassis"
+	"github.com/mykolq/ghw/pkg/cpu"
+	"github.com/mykolq/ghw/pkg/gpu"
+	"github.com/mykolq/ghw/pkg/marshal"
+	"github.com/mykolq/ghw/pkg/memory"
+	"github.com/mykolq/ghw/pkg/net"
+	"github.com/mykolq/ghw/pkg/pci"
+	"github.com/mykolq/ghw/pkg/product"
+	"github.com/mykolq/ghw/pkg/topology"
 )
 
 // HostInfo is a wrapper struct containing information about the host system's

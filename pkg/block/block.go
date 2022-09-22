@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/marshal"
-	"github.com/jaypipes/ghw/pkg/option"
-	"github.com/jaypipes/ghw/pkg/unitutil"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/mykolq/ghw/pkg/context"
+	"github.com/mykolq/ghw/pkg/marshal"
+	"github.com/mykolq/ghw/pkg/option"
+	"github.com/mykolq/ghw/pkg/unitutil"
+	"github.com/mykolq/ghw/pkg/util"
 )
 
 // DriveType describes the general category of drive device
@@ -86,7 +86,7 @@ func (dt *DriveType) UnmarshalJSON(b []byte) error {
 // represents more of the physical hardware interface than the storage
 // protocol, which represents more of the software interface.
 //
-// See discussion on https://github.com/jaypipes/ghw/issues/117
+// See discussion on https://github.com/mykolq/ghw/issues/117
 type StorageController int
 
 const (

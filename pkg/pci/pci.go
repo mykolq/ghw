@@ -12,12 +12,12 @@ import (
 
 	"github.com/jaypipes/pcidb"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/marshal"
-	"github.com/jaypipes/ghw/pkg/option"
-	pciaddr "github.com/jaypipes/ghw/pkg/pci/address"
-	"github.com/jaypipes/ghw/pkg/topology"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/mykolq/ghw/pkg/context"
+	"github.com/mykolq/ghw/pkg/marshal"
+	"github.com/mykolq/ghw/pkg/option"
+	pciaddr "github.com/mykolq/ghw/pkg/pci/address"
+	"github.com/mykolq/ghw/pkg/topology"
+	"github.com/mykolq/ghw/pkg/util"
 )
 
 // backward compatibility, to be removed in 1.0.0

@@ -6,8 +6,8 @@
 package chassis
 
 import (
-	"github.com/jaypipes/ghw/pkg/linuxdmi"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/mykolq/ghw/pkg/linuxdmi"
+	"github.com/mykolq/ghw/pkg/util"
 )
 
 func (i *Info) load() error {

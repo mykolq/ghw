@@ -7,19 +7,19 @@
 package ghw
 
 import (
-	"github.com/jaypipes/ghw/pkg/baseboard"
-	"github.com/jaypipes/ghw/pkg/bios"
-	"github.com/jaypipes/ghw/pkg/block"
-	"github.com/jaypipes/ghw/pkg/chassis"
-	"github.com/jaypipes/ghw/pkg/cpu"
-	"github.com/jaypipes/ghw/pkg/gpu"
-	"github.com/jaypipes/ghw/pkg/memory"
-	"github.com/jaypipes/ghw/pkg/net"
-	"github.com/jaypipes/ghw/pkg/option"
-	"github.com/jaypipes/ghw/pkg/pci"
-	pciaddress "github.com/jaypipes/ghw/pkg/pci/address"
-	"github.com/jaypipes/ghw/pkg/product"
-	"github.com/jaypipes/ghw/pkg/topology"
+	"github.com/mykolq/ghw/pkg/baseboard"
+	"github.com/mykolq/ghw/pkg/bios"
+	"github.com/mykolq/ghw/pkg/block"
+	"github.com/mykolq/ghw/pkg/chassis"
+	"github.com/mykolq/ghw/pkg/cpu"
+	"github.com/mykolq/ghw/pkg/gpu"
+	"github.com/mykolq/ghw/pkg/memory"
+	"github.com/mykolq/ghw/pkg/net"
+	"github.com/mykolq/ghw/pkg/option"
+	"github.com/mykolq/ghw/pkg/pci"
+	pciaddress "github.com/mykolq/ghw/pkg/pci/address"
+	"github.com/mykolq/ghw/pkg/product"
+	"github.com/mykolq/ghw/pkg/topology"
 )
 
 type WithOption = option.Option

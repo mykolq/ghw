@@ -13,11 +13,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jaypipes/ghw/pkg/gpu"
-	"github.com/jaypipes/ghw/pkg/option"
-	"github.com/jaypipes/ghw/pkg/snapshot"
+	"github.com/mykolq/ghw/pkg/gpu"
+	"github.com/mykolq/ghw/pkg/option"
+	"github.com/mykolq/ghwpkg/snapshot"
 
-	"github.com/jaypipes/ghw/testdata"
+	"github.com/mykolq/ghw/testdata"
 )
 
 // testcase for https://github.com/jaypipes/ghw/issues/234
